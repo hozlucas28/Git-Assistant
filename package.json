@@ -1,5 +1,5 @@
 {
-	"name": "@hozlucas28/git-assistant",
+	"name": "git-assistant",
 	"type": "module",
 	"main": "index.js",
 	"version": "1.0.0",
@@ -10,7 +10,7 @@
 		"src/"
 	],
 	"bin": {
-		"@hozlucas28/git-assistant": "./src/index.js"
+		"git-assistant": "./src/index.js"
 	},
 	"author": {
 		"name": "Lucas Hoz",
@@ -25,7 +25,7 @@
 		"url": "https://github.com/hozlucas28/Git-Assistant/issues"
 	},
 	"scripts": {
-		"git": "@hozlucas28/git-assistant",
+		"git": "git-assistant",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"eslintConfig": {
@@ -36,7 +36,7 @@
 		"picocolors": "1.0.0"
 	},
 	"devDependencies": {
-		"@hozlucas28/git-assistant": "file://.",
+		"git-assistant": "file://.",
 		"prettier": "2.8.4",
 		"standard": "^17.0.0"
 	}
