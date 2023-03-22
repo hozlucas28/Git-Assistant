@@ -1,0 +1,43 @@
+{
+	"name": "@hozlucas28/git-assistant",
+	"type": "module",
+	"main": "index.js",
+	"version": "1.0.0",
+	"license": "AGPL-3.0-only",
+	"homepage": "https://github.com/hozlucas28/Git-Assistant#readme",
+	"description": "Helps you to manage common git actions and create commits in a configurable and easy way.",
+	"files": [
+		"src/"
+	],
+	"bin": {
+		"@hozlucas28/git-assistant": "./src/index.js"
+	},
+	"author": {
+		"name": "Lucas Hoz",
+		"email": "hozlucas28@gmail.com",
+		"url": "https://github.com/hozlucas28"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hozlucas28/Git-Assistant.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hozlucas28/Git-Assistant/issues"
+	},
+	"scripts": {
+		"git": "@hozlucas28/git-assistant",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"eslintConfig": {
+		"extends": "standard"
+	},
+	"dependencies": {
+		"@clack/prompts": "0.6.3",
+		"picocolors": "1.0.0"
+	},
+	"devDependencies": {
+		"@hozlucas28/git-assistant": "file://.",
+		"prettier": "2.8.4",
+		"standard": "^17.0.0"
+	}
+}
